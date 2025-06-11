@@ -1,0 +1,52 @@
+/* Navbar Container & Layout */
+.navbar {
+  padding: 30px ;
+}
+
+.navbar .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Brand Logo */
+.custom-nav {
+   font-family: var(--heading-font);
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+  line-height: 38.4px;
+}
+
+/* Nav Links */
+.navbar .nav-link {
+  font-family: Poppins, sans-serif;
+  color:#212529;
+  font-weight: 400;
+  margin: 0 12px;
+  font-size: 18px;
+  transition: color 0.3s ease; 
+   line-height: 24px;
+ 
+}
+
+.navbar .nav-link:hover {
+  color: #dc3545;
+}
+
+.navbar .nav-link.active {
+  color: #dc3545;
+}
+
+/* Dropdown Styling */
+.navbar .dropdown-menu {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Button */
+.btn-danger {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+}
