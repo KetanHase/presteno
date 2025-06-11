@@ -1,0 +1,42 @@
+.services .service-item {
+  background-color: var(--surface-color);
+  padding: 30px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.services .service-item .icon {
+  font-size: 36px;
+  line-height: 1;
+  margin-right: 20px;
+  color: var(--accent-color);
+}
+
+.services .service-item .title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.services .service-item .title a {
+  color: var(--heading-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.services .service-item .title a:hover {
+  color: var(--accent-color);
+}
+
+.services .service-item .description {
+  line-height: 1.7;
+  font-size: 14px;
+  margin: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.services .service-item:hover {
+  background-color: color-mix(in srgb, var(--surface-color) 95%, white 5%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}

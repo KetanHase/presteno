@@ -1,5 +1,24 @@
+.clients {
+  padding: 60px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.clients-swiper {
+  padding: 20px 0;
+}
+
+.clients .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
 .clients .swiper-slide img {
-  opacity: 0.5;
+     max-width: 70%;
+     height: auto;
+  opacity: 0.8;
   transition: 0.3s;
   filter: grayscale(100);
 }
@@ -7,23 +26,17 @@
 .clients .swiper-slide img:hover {
   filter: none;
   opacity: 1;
+  transform: scale(1.05);
 }
 
-.clients .swiper-wrapper {
-  height: auto;
-}
+ 
 
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  opacity: 1;
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
+ 
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);

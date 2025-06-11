@@ -46,22 +46,39 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/blog">Blog</NavLink>
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#!"
-                id="dropdownMenu"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenu">
-                <li><Link className="dropdown-item" to="/dropdown1">Dropdown 1</Link>
-                </li>
-                <li><Link className="dropdown-item" to="/dropdown2">Dropdown 2</Link></li>
-              </ul>
-            </li>
+      <a
+        className="nav-link dropdown-toggle"
+        href="#!"
+        id="dropdownMenu"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Dropdown
+      </a>
+      <ul className="dropdown-menu" aria-labelledby="dropdownMenu">
+        {/* First level dropdown item with nested submenu */}
+        <li className="dropdown-submenu">
+          <a
+            className="dropdown-item dropdown-toggle"
+            href="#!"
+            id="dropdownSubMenu1"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Dropdown 1
+          </a>
+          <ul className="dropdown-menu">
+            <li><Link className="dropdown-item" to="/dropdown2">Sub Item 1</Link></li>
+            <li><Link className="dropdown-item" to="/dropdown2">Sub Item 2</Link></li>
+            <li><Link className="dropdown-item" to="/dropdown2">Sub Item 3</Link></li>
+          </ul>
+        </li>
+        {/* Second regular item */}
+        <li><Link className="dropdown-item" to="/dropdown2">Dropdown 2</Link></li>
+      </ul>
+    </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>

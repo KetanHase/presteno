@@ -1,0 +1,76 @@
+.about .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: var(--heading-color);
+}
+
+.about .content p {
+  margin-bottom: 30px;
+  color: var(--default-color);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about .content .about-btn {
+  padding: 8px 30px;
+  color: var(--default-color);
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid var(--accent-color);
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+.about .content .about-btn i {
+  font-size: 16px;
+  padding-left: 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.about .content .about-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.about .content .about-btn:hover i {
+  color: var(--contrast-color);
+}
+
+.about .icon-box {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about .icon-box i {
+  font-size: 40px;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.about .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.about .icon-box h4 a {
+  color: var(--heading-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.about .icon-box h4 a:hover {
+  color: var(--accent-color);
+}
+
+.about .icon-box p {
+  font-size: 15px;
+  color: #A49D85; /* fallback if color-mix not supported */
+  margin-bottom: 0;
+}
