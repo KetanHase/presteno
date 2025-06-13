@@ -11,6 +11,7 @@ import Teams from './pages/Teams';
 import Portfolios from './pages/Portfolios';
 import Contacts from './pages/Contacts';
 import Blog from './pages/Blog';
+import ErrorPage from './pages/ErrorPage';
 
 
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="/portfolio" element={<Portfolios />} />
         <Route path="/contact" element={<Contacts />} />
         <Route path="/blog" element={<Blog />} />
+
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
        <Footer />
     </Router>
