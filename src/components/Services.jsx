@@ -22,7 +22,7 @@ const Services = () => {
                 <i className="bi bi-briefcase icon flex-shrink-0" />
                 <div>
                   <h4 className="title">
-                    <a href="service-details.html" className="stretched-link">
+                    <a href="/" className="stretched-link">
                       Lorem Ipsum
                     </a>
                   </h4>
@@ -39,7 +39,7 @@ const Services = () => {
                 <i className="bi bi-card-checklist icon flex-shrink-0" />
                 <div>
                   <h4 className="title">
-                    <a href="service-details.html" className="stretched-link">
+                    <a href="/" className="stretched-link">
                       Dolor Sitema
                     </a>
                   </h4>
@@ -56,7 +56,7 @@ const Services = () => {
                 <i className="bi bi-bar-chart icon flex-shrink-0" />
                 <div>
                   <h4 className="title">
-                    <a href="service-details.html" className="stretched-link">
+                    <a href="/" className="stretched-link">
                       Sed ut perspiciatis
                     </a>
                   </h4>
@@ -73,7 +73,7 @@ const Services = () => {
                 <i className="bi bi-binoculars icon flex-shrink-0" />
                 <div>
                   <h4 className="title">
-                    <a href="service-details.html" className="stretched-link">
+                    <a href="/" className="stretched-link">
                       Magni Dolores
                     </a>
                   </h4>
@@ -90,7 +90,7 @@ const Services = () => {
                 <i className="bi bi-brightness-high icon flex-shrink-0" />
                 <div>
                   <h4 className="title">
-                    <a href="service-details.html" className="stretched-link">
+                    <a href="/" className="stretched-link">
                       Nemo Enim
                     </a>
                   </h4>
@@ -107,7 +107,7 @@ const Services = () => {
                 <i className="bi bi-calendar4-week icon flex-shrink-0" />
                 <div>
                   <h4 className="title">
-                    <a href="service-details.html" className="stretched-link">
+                    <a href="/" className="stretched-link">
                       Eiusmod Tempor
                     </a>
                   </h4>

@@ -11,6 +11,7 @@ import Testimonials from '../components/Testonomials'
 import FaqSection from '../components/FaqSection'
 import Contact from '../components/Contact'
 import Team from '../components/Team'
+import Pricing from '../components/Pricing'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
     <Services />
     <Portfolio />
     <Testimonials />
+    <Pricing />
     <FaqSection />
      <Team />
     <Contact />

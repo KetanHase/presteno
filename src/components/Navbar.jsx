@@ -33,8 +33,11 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink className="nav-link" to="/about">About</NavLink>
             </li>
+            {/* <li className="nav-item">
+              <a  className="nav-link" href="#about">About</a>
+            </li> */}
             <li className="nav-item">
-              <NavLink className="nav-link" to="/services">Services</NavLink>
+              <NavLink className="nav-link" to="/service">Services</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
@@ -70,13 +73,16 @@ const Navbar = () => {
             Dropdown 1
           </a>
           <ul className="dropdown-menu">
-            <li><Link className="dropdown-item" to="/dropdown2">Sub Item 1</Link></li>
-            <li><Link className="dropdown-item" to="/dropdown2">Sub Item 2</Link></li>
-            <li><Link className="dropdown-item" to="/dropdown2">Sub Item 3</Link></li>
+            <li><Link className="dropdown-item" to="/dropdown2">Deep Dropdown 1</Link></li>
+            <li><Link className="dropdown-item" to="/dropdown2">Deep Dropdown 2</Link></li>
+            <li><Link className="dropdown-item" to="/dropdown2">Deep Dropdown 3</Link></li>
           </ul>
         </li>
         {/* Second regular item */}
         <li><Link className="dropdown-item" to="/dropdown2">Dropdown 2</Link></li>
+        <li><Link className="dropdown-item" to="/dropdown2">Dropdown 3</Link></li>
+        <li><Link className="dropdown-item" to="/dropdown2">Dropdown 4</Link></li>
+        <li><Link className="dropdown-item" to="/dropdown2">Dropdown 5</Link></li>
       </ul>
     </li>
             <li className="nav-item">
