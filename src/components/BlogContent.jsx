@@ -326,13 +326,13 @@ const BlogContent = () => {
             <h3 className="widget-title">Recent Posts</h3>
             <div className="post-item">
               <img
-                src="assets/img/blog/blog-recent-1.jpg"
+                src="images/blog/blog-recent-1.jpg"
                 alt=""
                 className="flex-shrink-0"
               />
               <div>
                 <h4>
-                  <a href="blog-details.html">
+                  <a href="/">
                     Nihil blanditiis at in nihil autem
                   </a>
                 </h4>
@@ -342,13 +342,13 @@ const BlogContent = () => {
             {/* End recent post item*/}
             <div className="post-item">
               <img
-                src="assets/img/blog/blog-recent-2.jpg"
+                src="images/blog/blog-recent-2.jpg"
                 alt=""
                 className="flex-shrink-0"
               />
               <div>
                 <h4>
-                  <a href="blog-details.html">Quidem autem et impedit</a>
+                  <a href="/">Quidem autem et impedit</a>
                 </h4>
                 <time dateTime="2020-01-01">Jan 1, 2020</time>
               </div>
@@ -356,13 +356,13 @@ const BlogContent = () => {
             {/* End recent post item*/}
             <div className="post-item">
               <img
-                src="assets/img/blog/blog-recent-3.jpg"
+                src="images/blog/blog-recent-3.jpg"
                 alt=""
                 className="flex-shrink-0"
               />
               <div>
                 <h4>
-                  <a href="blog-details.html">
+                  <a href="/">
                     Id quia et et ut maxime similique occaecati ut
                   </a>
                 </h4>
@@ -372,13 +372,13 @@ const BlogContent = () => {
             {/* End recent post item*/}
             <div className="post-item">
               <img
-                src="assets/img/blog/blog-recent-4.jpg"
+                src="images/blog/blog-recent-4.jpg"
                 alt=""
                 className="flex-shrink-0"
               />
               <div>
                 <h4>
-                  <a href="blog-details.html">
+                  <a href="/">
                     Laborum corporis quo dara net para
                   </a>
                 </h4>
@@ -388,13 +388,13 @@ const BlogContent = () => {
             {/* End recent post item*/}
             <div className="post-item">
               <img
-                src="assets/img/blog/blog-recent-5.jpg"
+                src="images/blog/blog-recent-5.jpg"
                 alt=""
                 className="flex-shrink-0"
               />
               <div>
                 <h4>
-                  <a href="blog-details.html">
+                  <a href="/">
                     Et dolores corrupti quae illo quod dolor
                   </a>
                 </h4>
@@ -454,4 +454,4 @@ const BlogContent = () => {
   )
 }
 
-export default BlogContent
+export default BlogContent;
