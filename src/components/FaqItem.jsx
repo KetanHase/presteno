@@ -23,7 +23,8 @@ class FaqItem extends Component {
         <div className="faq-content" style={{ display: isOpen ? 'block' : 'none' }}>
           <p>{answer}</p>
         </div>
-        <i className={`faq-toggle bi ${isOpen ? 'bi-chevron-down' : 'bi-chevron-right'}`}></i>
+        <i className={`faq-toggle bi ${isOpen ? 'bi-chevron-right' : 'bi-chevron-right'}`}></i>
+         
       </div>
     );
   }

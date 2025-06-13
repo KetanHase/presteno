@@ -92,13 +92,12 @@ const Footer = () => {
           products and services!
         </p>
         <form
-          action="forms/newsletter.php"
-          method="post"
+          
           className="php-email-form"
         >
           <div className="newsletter-form">
             <input type="email" name="email" />
-            <input type="submit" defaultValue="Subscribe" />
+            <input type="button" defaultValue="Subscribe" />
           </div>
           <div className="loading">Loading</div>
           <div className="error-message" />

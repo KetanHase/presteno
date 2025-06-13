@@ -66,8 +66,7 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-6">
                     <form
-                    action="forms/contact.php"
-                    method="post"
+                   
                     className="php-email-form"
                     data-aos="fade-up"
                     data-aos-delay={500}
@@ -116,7 +115,8 @@ const Contact = () => {
                         {/* <div className="sent-message">
                             Your message has been sent. Thank you!
                         </div> */}
-                        <button type="submit">Send Message</button>
+                        
+                        <button type='button' >Send Message</button>
                         </div>
                     </div>
                     </form>
